@@ -1,4 +1,4 @@
-import ace from 'ace';
+import ace from 'brace';
 
 exports.install = (Vue, options, mode, lines) => {
   Vue.directive("ace", {
