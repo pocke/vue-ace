@@ -1,5 +1,13 @@
 import ace from 'brace';
 
+// `install` function is copied and modified from github.com/skyarch-networks/skyhopper
+//
+// Copyright (c) 2015 SKYARCH NETWORKS INC.
+//
+// This software is released under the MIT License.
+//
+// http://opensource.org/licenses/mit-license.php
+//
 exports.install = (Vue, options, mode, lines) => {
   Vue.directive("ace", {
     twoWay: true,
