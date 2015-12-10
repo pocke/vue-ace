@@ -1,3 +1,5 @@
+import ace from 'ace';
+
 exports.install = (Vue, options, mode, lines) => {
   Vue.directive("ace", {
     twoWay: true,
